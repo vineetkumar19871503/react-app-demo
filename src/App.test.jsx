@@ -6,7 +6,7 @@ describe('App', () => {
   it('renders the main heading', () => {
     render(<App />)
 
-    expect(screen.getByRole('heading', { name: 'Get started', level: 1 })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: 'Hello World!!', level: 1 })).toBeInTheDocument()
   })
 
   it('renders the counter with an initial value of 0', () => {
