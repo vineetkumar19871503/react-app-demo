@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         AWS_REGION = "ap-south-1"
-        S3_BUCKET = "jenkins-demo-vineet"
+        S3_BUCKET = "jenkins-demo-bucket-ttn"
         CLOUDFRONT_DISTRIBUTION = "E5WACK2P183QF"
     }
 
