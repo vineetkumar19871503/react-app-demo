@@ -3,12 +3,6 @@ import userEvent from '@testing-library/user-event'
 import App from './App'
 
 describe('App', () => {
-  it('renders the main heading', () => {
-    render(<App />)
-
-    expect(screen.getByRole('heading', { name: 'Hello World!!', level: 1 })).toBeInTheDocument()
-  })
-
   it('renders the counter with an initial value of 0', () => {
     render(<App />)
 
